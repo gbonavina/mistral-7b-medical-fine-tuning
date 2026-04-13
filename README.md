@@ -31,9 +31,14 @@ A critical part of this project was comparing the fine-tuned model against the b
 3.  **Fine-Tuning:** Optimized hyperparameters (Rank=16, Learning Rate=2e-4) to ensure convergence and prevent overfitting.
 4.  **Error Analysis:** Implemented a Confusion Matrix to identify symptomatic overlaps.
 
+## 📊 Training & Evaluation Results
+![Training Loss](images/loss_chart.png)
+> Note: For the full interactive code and training logs, you can [Open this project in Google Colab](https://colab.research.google.com/drive/1Lkj2UmYYEn7oF8kyOoeaJhpV9iZeB5j5?usp=sharing).
+
 ## 🧪 Error Analysis & Insights
 The confusion matrix revealed that some misclassifications occur in diseases with overlapping clinical presentations. For instance, **Pneumonia** and **Bronchial Asthma** share features like cough and dyspnea, making them a challenge for symptom-only models.
 
+![Confusion Matrix](images/confusion_matrix.png)
 
 
 ## 🖥️ Usage & Inference
