@@ -8,7 +8,7 @@ This repository contains a specialized Large Language Model (LLM) designed to cl
 * **Efficiency:** Fine-tuning performed on a single T4 GPU (Google Colab) using the **Unsloth** framework.
 * **Deployment-Ready:** Includes a real-time interactive demo powered by **Gradio**.
 
-## 📊 Performance: The "Ablation Study"
+## 📊 Performance: The Benchmark
 A critical part of this project was comparing the fine-tuned model against the base version. The results demonstrate that fine-tuning is essential for instruction following and domain specialization.
 
 | Metric | Mistral-7B (Base Model) | **Mistral-7B + QLoRA (This Project)** |
